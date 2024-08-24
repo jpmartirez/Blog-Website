@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BLOG WEBSITE | JP</title>
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <body class="px-3 font-Poppins">
+    
+    <!-- Navigation -->
+    <nav class="flex items-center justify-around h-8 py-10">
+
+      <!-- Toggle checkbox -->
+      <input type="checkbox" id="toggle" hidden>
+
+      <div class="text-3xl italic font-black"><a href="">BLOG</a></div>
+
+      <ul class="items-center hidden gap-20 lg:flex">
+        <li><a href="" class="font-medium hover:underline">HOME</a></li>
+        <li><a href="" class="font-medium hover:underline">PAGES</a></li>
+        <li><a href="" class="font-medium hover:underline">TEMPLATES</a></li>
+        <li>
+          <a
+            href=""
+            class="p-3 font-medium border border-black hover:bg-black hover:text-white"
+            >INSTALL THEME</a
+          >
+        </li>
+      </ul>
+
+      <div class="lg:hidden">
+        <label for="toggle"><img src="./logo/menu.svg" alt=""></label>
+      </div>
+
+      <!-- Navigation -->
+      <div class="fixed top-0 bottom-0 left-0 right-0 hidden bg-black navSetUp bg-opacity-45">
+        <div class="fixed right-4 top-4">
+          <label for="toggle"><img class="w-[20px]" src="./logo/delete-svgrepo-com.svg" alt=""></label>
+        </div>
+        <ul class="fixed flex flex-col items-center justify-around gap-20 p-4 overflow-scroll bg-white rounded-xl top-10 left-10 right-10 bottom-10">
+          <li><a href="" class="font-medium hover:underline">HOME</a></li>
+          <li><a href="" class="font-medium hover:underline">PAGES</a></li>
+          <li><a href="" class="font-medium hover:underline">TEMPLATES</a></li>
+          <li>
+            <a
+              href=""
+              class="p-3 font-medium border border-black hover:bg-black hover:text-white"
+              >INSTALL THEME</a>
+          </li>
+        </ul>
+      </div>
+      
+    </nav>
+
+    <!-- Main -->
+    <main
+      class="flex flex-col items-center justify-center mt-20 gap-28 lg:flex-row">
+      <!-- Left Side -->
+      <div class="w-[80%] lg:w-[50%] flex flex-col gap-7 items-center lg:items-start">
+        <p>WELCOME!</p>
+        <h1 class="text-2xl font-bold">LANDING PAGE</h1>
+        <p class="text-center lg:text-justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quia porro
+          laudantium a culpa dolorum voluptas assumenda, illo reiciendis
+          doloremque commodi iste necessitatibus saepe accusamus nostrum
+          inventore incidunt ullam perspiciatis.
+        </p>
+        <div>
+          <a
+            href="#"
+            class="py-3 px-5 font-bold rounded-md border border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]"
+          >
+            READ MORE
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Side -->
+      <div class="shadow-xl">
+        <div class="border border-black p-8 sm:w-[400px] rounded-md">
+          <form action="" class="flex flex-col gap-4">
+            <div>
+              <p class="font-medium">First Name</p>
+              <input
+                type="text"
+                required
+                class="w-full px-2 py-2 border border-black"
+              />
+            </div>
+
+            <div>
+              <p class="font-medium">Last Name</p>
+              <input
+                type="text"
+                required
+                class="w-full px-2 py-2 border border-black"
+              />
+            </div>
+
+            <div>
+              <p class="font-medium">Email</p>
+              <input
+                type="text"
+                required
+                class="w-full px-2 py-2 border border-black"
+              />
+            </div>
+
+            <div>
+              <p class="font-medium">What can we help you with?</p>
+              <input
+                type="text"
+                required
+                class="w-full px-2 py-4 border border-black"
+              />
+            </div>
+
+            <input
+              type="submit"
+              value="SUBMIT"
+              class="w-full py-2 font-bold text-white bg-black border border-black cursor-pointer hover:bg-white hover:text-black"
+            />
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!-- Logo Section -->
+    <div class="flex flex-wrap items-center justify-center gap-16 my-20">
+      <img class="w-[120px]" src="./logo/chanel-logo.png" alt="" />
+      <img class="w-[120px]" src="./logo/urban-logo.png" alt="" />
+      <img class="w-[120px]" src="./logo/adidas-logo.png" alt="" />
+      <img class="w-[120px]" src="./logo/lacoste-logo.png" alt="" />
+    </div>
+
+    <!-- Pictures Section -->
+    <section class="flex flex-col gap-12">
+      <!-- First Section -->
+      <div class="flex flex-col items-center justify-center bg-gray-100 gap-11 py-14 lg:flex-row">
+        <!-- Left Image -->
+        <div class="w-[250px] h-[250px]  sm:w-[400px] sm:h-[400px] overflow-hidden">
+          <img class="object-cover w-full h-full rounded-2xl" src="./blog-pictures/blog-1.jpg" alt="" />
+        </div>
+
+        <!-- Right Side -->
+        <div class="max-w-[600px] flex flex-col gap-7 items-center lg:items-start">
+          <h1 class="text-2xl font-bold text-center lg:text-start">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit
+          </h1>
+          <p class="text-center lg:text-start">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo
+            libero, beatae illo possimus ipsum error harum ea dolorem inventore,
+            dolores soluta, hic tempore obcaecati quidem eligendi debitis
+            provident itaque. Animi!
+          </p>
+          <div>
+            <a
+              href="#"
+              class="py-3 px-5 font-bold rounded-md border border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]"
+            >
+              Lean more
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Section -->
+      <div class="flex flex-col items-center justify-center gap-11 lg:flex-row">
+        <!-- Left Side -->
+        <div class="max-w-[600px] flex flex-col gap-7 items-center lg:items-start">
+          <h1 class="text-2xl font-bold text-center lg:text-start">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            harum esse, quia voluptas
+          </h1>
+          <p class="text-center lg:text-start">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo
+            libero, beatae illo possimus ipsum error harum ea dolorem inventore,
+            dolores soluta, hic tempore obcaecati quidem eligendi debitis
+            provident itaque. Animi!
+          </p>
+          <div>
+            <a
+              href="#"
+              class="py-3 px-5 font-bold rounded-md border border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]"
+            >
+              Lean more
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Image -->
+        <div class="w-[250px] h-[250px] sm:w-[400px] sm:h-[400px] overflow-hidden order-first lg:order-last">
+          <img
+            class="object-cover w-full h-full rounded-2xl"
+            src="./blog-pictures/blog-2.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="py-16 text-center bg-violet-600">
+        <p class="font-medium text-white">LET'S GET STARTED</p>
+        <h1 class="mb-10 text-3xl font-extrabold text-white">
+          Thinking of a project? Let's work on it together!
+        </h1>
+        <a
+          href="#"
+          class="py-3 px-5 font-bold bg-white rounded-md border border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]"
+        >
+          Book A Consultation
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="flex flex-col justify-center gap-16 py-5 mt-10 md:flex-row">
+      <!-- First Side -->
+      <div class="flex flex-col gap-4 w-full md:max-w-[600px] items-center md:items-start">
+        <a href=""><h1 class="text-3xl italic font-black">BLOG</h1></a>
+        <p class="text-center md:text-start">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          ducimus quis asperiores tempore itaque aliquam, quos distinctio.
+          Provident, voluptatem sed, necessitatibus praesentium fugit laudantium
+          error blanditiis modi cupiditate temporibus ad!
+        </p>
+        <div class="flex gap-6">
+          <a href=""
+            ><img
+              class="w-[30px]"
+              src="./social-media/facebook-round-svgrepo-com.svg"
+              alt=""
+          /></a>
+          <a href=""
+            ><img
+              class="w-[30px]"
+              src="./social-media/instagram-f-svgrepo-com.svg"
+              alt=""
+          /></a>
+          <a href=""
+            ><img
+              class="w-[30px]"
+              src="./social-media/linkedin-round-svgrepo-com.svg"
+              alt=""
+          /></a>
+          <a href=""
+            ><img
+              class="w-[30px]"
+              src="./social-media/twitter-round-svgrepo-com.svg"
+              alt=""
+          /></a>
+        </div>
+      </div>
+
+      <!-- Second Side -->
+      <div class="flex flex-col items-center gap-5 md:items-start">
+        <h1 class="font-bold">Pages</h1>
+        <div class="flex flex-col gap-2 text-center md:text-start">
+          <a href="" class="hover:font-bold">Home</a>
+          <a href="" class="hover:font-bold">Services</a>
+          <a href="" class="hover:font-bold">Portfolio</a>
+          <a href="" class="hover:font-bold">About</a>
+          <a href="" class="hover:font-bold">Contact</a>
+          <a href="" class="hover:font-bold">FAQ</a>
+          <a href="" class="hover:font-bold">Landing Page</a>
+        </div>
+      </div>
+
+      <!-- Third Side -->
+      <div class="flex flex-col items-center gap-5 md:items-start">
+        <h1 class="font-bold">Resources</h1>
+        <div class="flex flex-col gap-2 text-center md:text-start">
+          <a href="" class="hover:font-bold">Blog</a>
+          <a href="" class="hover:font-bold">Watch a Demo</a>
+          <a href="" class="hover:font-bold">Academy</a>
+          <a href="" class="hover:font-bold">Webinars</a>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="./index.js"></script>
+  </body>
+</html>
